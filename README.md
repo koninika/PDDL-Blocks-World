@@ -26,12 +26,12 @@ painting an object with a brush and can
 loading a paint with paint of a given color 
 washing a brush, making it clean 
 
-Here are some constants that your actions should enforce.  
-all of the usual actions and constraints of the blocks world  
-there is a fixed set of colors: red, green, blue, yellow, ... 
-in order to paint an object, that object must be on the table and clear 
+Here are some constants that your actions should enforce:
+All of the usual actions and constraints of the blocks world  
+There is a fixed set of colors: red, green, blue, yellow, etc 
+In order to paint an object, that object must be on the table and clear 
 Painting with a sprayer is easy -- just pick it up and spray. 
 To paint something a color with a brush, it has to be loaded with paint of that color. 
-To load a paint bush with a particular color, you have to be holding the brush, the brush must be initially clean and there has to be a paint can holding that color of paint which is clear.
+To load a paint bush with a particular color, you have to be holding the brush, the brush must be initially clean and there has to be A paint can holding that color of paint which is clear.
 When a brush is loaded with a color it is not clean. 
 To wash a brush, making it clean, you have to have a water bucket that has nothing on it (i.e., is clear) and you have to be holding the brush.
