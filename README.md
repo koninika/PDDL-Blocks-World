@@ -21,15 +21,15 @@ Water bucket. A water bucket is used to wash brushes.
 
 These three objects are like blocks in that they can be picked up, put down, stacked and unstacked. They can also be painted, although painting them only alters their surface (e.g., a red sprayer will continue to spray red paint even after the sprayer is painted blue).  
 Additional actions include:  
-painting an object with a sprayer 
-painting an object with a brush and can 
-loading a paint with paint of a given color 
-washing a brush, making it clean 
+painting an object with a sprayer.
+painting an object with a brush and can. 
+loading a paint with paint of a given color. 
+washing a brush, making it clean.
 
 Here are some constants that your actions should enforce:
-All of the usual actions and constraints of the blocks world  
-There is a fixed set of colors: red, green, blue, yellow, etc 
-In order to paint an object, that object must be on the table and clear 
+All of the usual actions and constraints of the blocks world. 
+There is a fixed set of colors: red, green, blue, yellow, etc. 
+In order to paint an object, that object must be on the table and clear. 
 Painting with a sprayer is easy -- just pick it up and spray. 
 To paint something a color with a brush, it has to be loaded with paint of that color. 
 To load a paint bush with a particular color, you have to be holding the brush, the brush must be initially clean and there has to be A paint can holding that color of paint which is clear.
