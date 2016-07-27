@@ -1,0 +1,108 @@
+blackbox version 43
+command line:  ./blackbox -o domain.pddl -f p2.pddl
+
+Begin solver specification
+    -maxint        0   -maxsec 10.000000  graphplan
+    -maxint        0   -maxsec 0.000000  chaff
+End solver specification
+Loading domain file: domain.pddl
+Loading fact file: p2.pddl
+Problem name: 1
+Facts loaded.
+time: 1, 44 facts and 17 exclusive pairs.
+time: 2, 52 facts and 88 exclusive pairs.
+time: 3, 54 facts and 97 exclusive pairs.
+time: 4, 60 facts and 172 exclusive pairs.
+Goals reachable at 4 steps but mutually exclusive.
+time: 5, 60 facts and 135 exclusive pairs.
+Goals reachable at 5 steps but mutually exclusive.
+time: 6, 60 facts and 106 exclusive pairs.
+Goals first reachable in 6 steps.
+831 nodes created.
+
+####################################################
+goals at time 7:
+  arm-empty color_a_red color_b_blue clean_brush on-table_sprayer 
+on-table_brush 
+
+
+----------------------------------------------------
+Invoking solver graphplan
+Result is Unsat
+Iteration was 6
+
+----------------------------------------------------
+Can't solve in 6 steps
+time: 7, 60 facts and 98 exclusive pairs.
+156 new nodes added.
+
+####################################################
+goals at time 8:
+  arm-empty color_a_red color_b_blue clean_brush on-table_sprayer 
+on-table_brush 
+
+
+----------------------------------------------------
+Invoking solver graphplan
+Result is Unsat
+Iteration was 61
+
+----------------------------------------------------
+Can't solve in 7 steps
+time: 8, 60 facts and 98 exclusive pairs.
+156 new nodes added.
+
+####################################################
+goals at time 9:
+  arm-empty color_a_red color_b_blue clean_brush on-table_sprayer 
+on-table_brush 
+
+
+----------------------------------------------------
+Invoking solver graphplan
+Result is Unsat
+Iteration was 360
+
+----------------------------------------------------
+Can't solve in 8 steps
+time: 9, 60 facts and 98 exclusive pairs.
+156 new nodes added.
+
+####################################################
+goals at time 10:
+  arm-empty color_a_red color_b_blue clean_brush on-table_sprayer 
+on-table_brush 
+
+
+----------------------------------------------------
+Invoking solver graphplan
+Result is Sat
+Iteration was 1369
+Performing plan justification:
+   0 actions were pruned in 0.00 seconds
+
+----------------------------------------------------
+Begin plan
+1 (unstack b a)
+2 (put-down b)
+3 (pick-up brush)
+4 (dip-paint brush can red)
+5 (brush-paint brush a red)
+5 (dip-bucket brush bucket)
+6 (put-down brush)
+7 (pick-up sprayer)
+8 (spray-paint sprayer b blue)
+9 (put-down sprayer)
+End plan
+----------------------------------------------------
+
+10 total actions in plan
+142 entries in hash table, 91 hash hits, avg set size 8
+241 total set-creation steps (entries + hits + plan length - 1)
+288 actions tried
+
+####################################################
+Total elapsed time:   0.01 seconds
+Time in milliseconds: 10
+
+####################################################

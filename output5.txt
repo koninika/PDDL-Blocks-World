@@ -1,0 +1,274 @@
+blackbox version 43
+command line:  ./blackbox -o domain.pddl -f p5.pddl
+
+Begin solver specification
+    -maxint        0   -maxsec 10.000000  graphplan
+    -maxint        0   -maxsec 0.000000  chaff
+End solver specification
+Loading domain file: domain.pddl
+Loading fact file: p5.pddl
+Problem name: 5
+Facts loaded.
+time: 1, 54 facts and 16 exclusive pairs.
+time: 2, 58 facts and 36 exclusive pairs.
+time: 3, 62 facts and 69 exclusive pairs.
+time: 4, 70 facts and 170 exclusive pairs.
+time: 5, 75 facts and 226 exclusive pairs.
+time: 6, 90 facts and 582 exclusive pairs.
+time: 7, 94 facts and 551 exclusive pairs.
+time: 8, 107 facts and 848 exclusive pairs.
+time: 9, 109 facts and 689 exclusive pairs.
+time: 10, 124 facts and 1100 exclusive pairs.
+time: 11, 125 facts and 912 exclusive pairs.
+Goals reachable at 11 steps but mutually exclusive.
+time: 12, 125 facts and 715 exclusive pairs.
+Goals reachable at 12 steps but mutually exclusive.
+time: 13, 125 facts and 663 exclusive pairs.
+Goals reachable at 13 steps but mutually exclusive.
+time: 14, 125 facts and 643 exclusive pairs.
+Goals first reachable in 14 steps.
+3776 nodes created.
+
+####################################################
+goals at time 15:
+  arm-empty on-table_c color_c_blue color_a_red color_b_green 
+on_b_c on_a_b on-table_redsprayer on_brush_greencan clean_brush 
+
+
+
+----------------------------------------------------
+Invoking solver graphplan
+Result is Unsat
+Iteration was 11
+
+----------------------------------------------------
+Can't solve in 14 steps
+time: 15, 125 facts and 643 exclusive pairs.
+384 new nodes added.
+
+####################################################
+goals at time 16:
+  arm-empty on-table_c color_c_blue color_a_red color_b_green 
+on_b_c on_a_b on-table_redsprayer on_brush_greencan clean_brush 
+
+
+
+----------------------------------------------------
+Invoking solver graphplan
+Result is Unsat
+Iteration was 253
+
+----------------------------------------------------
+Can't solve in 15 steps
+time: 16, 125 facts and 643 exclusive pairs.
+384 new nodes added.
+
+####################################################
+goals at time 17:
+  arm-empty on-table_c color_c_blue color_a_red color_b_green 
+on_b_c on_a_b on-table_redsprayer on_brush_greencan clean_brush 
+
+
+
+----------------------------------------------------
+Invoking solver graphplan
+Result is Unsat
+Iteration was 1785
+
+----------------------------------------------------
+Can't solve in 16 steps
+time: 17, 125 facts and 643 exclusive pairs.
+384 new nodes added.
+
+####################################################
+goals at time 18:
+  arm-empty on-table_c color_c_blue color_a_red color_b_green 
+on_b_c on_a_b on-table_redsprayer on_brush_greencan clean_brush 
+
+
+
+----------------------------------------------------
+Invoking solver graphplan
+Result is Unsat
+Iteration was 7123
+
+----------------------------------------------------
+Can't solve in 17 steps
+time: 18, 125 facts and 643 exclusive pairs.
+384 new nodes added.
+
+####################################################
+goals at time 19:
+  arm-empty on-table_c color_c_blue color_a_red color_b_green 
+on_b_c on_a_b on-table_redsprayer on_brush_greencan clean_brush 
+
+
+
+----------------------------------------------------
+Invoking solver graphplan
+Result is Unsat
+Iteration was 36658
+
+----------------------------------------------------
+Can't solve in 18 steps
+time: 19, 125 facts and 643 exclusive pairs.
+384 new nodes added.
+
+####################################################
+goals at time 20:
+  arm-empty on-table_c color_c_blue color_a_red color_b_green 
+on_b_c on_a_b on-table_redsprayer on_brush_greencan clean_brush 
+
+
+
+----------------------------------------------------
+Invoking solver graphplan
+Result is Unsat
+Iteration was 109805
+
+----------------------------------------------------
+Can't solve in 19 steps
+time: 20, 125 facts and 643 exclusive pairs.
+384 new nodes added.
+
+####################################################
+goals at time 21:
+  arm-empty on-table_c color_c_blue color_a_red color_b_green 
+on_b_c on_a_b on-table_redsprayer on_brush_greencan clean_brush 
+
+
+
+----------------------------------------------------
+Invoking solver graphplan
+Result is Unsat
+Iteration was 383653
+
+----------------------------------------------------
+Can't solve in 20 steps
+time: 21, 125 facts and 643 exclusive pairs.
+384 new nodes added.
+
+####################################################
+goals at time 22:
+  arm-empty on-table_c color_c_blue color_a_red color_b_green 
+on_b_c on_a_b on-table_redsprayer on_brush_greencan clean_brush 
+
+
+
+----------------------------------------------------
+Invoking solver graphplan
+Result is Unsat
+Iteration was 1036087
+
+----------------------------------------------------
+Can't solve in 21 steps
+time: 22, 125 facts and 643 exclusive pairs.
+384 new nodes added.
+
+####################################################
+goals at time 23:
+  arm-empty on-table_c color_c_blue color_a_red color_b_green 
+on_b_c on_a_b on-table_redsprayer on_brush_greencan clean_brush 
+
+
+
+----------------------------------------------------
+Invoking solver graphplan
+Result is Unsat
+Iteration was 2853170
+
+----------------------------------------------------
+Can't solve in 22 steps
+time: 23, 125 facts and 643 exclusive pairs.
+384 new nodes added.
+
+####################################################
+goals at time 24:
+  arm-empty on-table_c color_c_blue color_a_red color_b_green 
+on_b_c on_a_b on-table_redsprayer on_brush_greencan clean_brush 
+
+
+
+----------------------------------------------------
+Invoking solver graphplan
+Result is Unsat
+Iteration was 7397940
+
+----------------------------------------------------
+Can't solve in 23 steps
+time: 24, 125 facts and 643 exclusive pairs.
+384 new nodes added.
+
+####################################################
+goals at time 25:
+  arm-empty on-table_c color_c_blue color_a_red color_b_green 
+on_b_c on_a_b on-table_redsprayer on_brush_greencan clean_brush 
+
+
+
+----------------------------------------------------
+Invoking solver graphplan
+Result is Unsat
+Iteration was 18540005
+
+----------------------------------------------------
+Can't solve in 24 steps
+time: 25, 125 facts and 643 exclusive pairs.
+384 new nodes added.
+
+####################################################
+goals at time 26:
+  arm-empty on-table_c color_c_blue color_a_red color_b_green 
+on_b_c on_a_b on-table_redsprayer on_brush_greencan clean_brush 
+
+
+
+----------------------------------------------------
+Invoking solver graphplan
+Result is Sat
+Iteration was 30214428
+Performing plan justification:
+   0 actions were pruned in 0.00 seconds
+
+----------------------------------------------------
+Begin plan
+1 (unstack brush bucket)
+2 (put-down brush)
+3 (unstack bucket bluecan)
+4 (put-down bucket)
+5 (unstack bluecan greencan)
+6 (put-down bluecan)
+7 (unstack c b)
+8 (put-down c)
+9 (unstack greencan redsprayer)
+10 (put-down greencan)
+11 (unstack b a)
+12 (put-down b)
+13 (pick-up brush)
+14 (dip-paint brush greencan green)
+15 (brush-paint brush b green)
+15 (dip-bucket brush bucket)
+16 (dip-paint brush bluecan blue)
+17 (brush-paint brush c blue)
+17 (dip-bucket brush bucket)
+18 (stack brush greencan)
+19 (pick-up redsprayer)
+20 (spray-paint redsprayer a red)
+21 (put-down redsprayer)
+22 (pick-up b)
+23 (stack b c)
+24 (pick-up a)
+25 (stack a b)
+End plan
+----------------------------------------------------
+
+27 total actions in plan
+1785645 entries in hash table, 2930967 hash hits, avg set size 16
+4716636 total set-creation steps (entries + hits + plan length - 1)
+5522852 actions tried
+
+####################################################
+Total elapsed time:   3 minutes, 59 seconds
+Time in milliseconds: 238888
+
+####################################################
